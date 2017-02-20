@@ -1,0 +1,8 @@
+name: Talks
+source:
+  - icon: fa fa-youtube
+    link: https://www.youtube.com/watch?v=VrpW4BxzImA
+    title: Taming the chaos through automation
+    event: All Hands on DevOps London (2016-02-02)
+    event_link: https://www.meetup.com/AHODevOps/events/236637125/
+    description: What challenges are faced in managing ~90 AWS accounts, running ~300 VPCs, used by ~ 60 diverse development teams. How has Terraform solved a number of these, and what design considerations should be made when using Terraform at scale.

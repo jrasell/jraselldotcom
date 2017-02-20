@@ -1,0 +1,20 @@
+baseurl      = "https://jrasell.com"
+languageCode = "en-GB"
+theme        = "hugo-sustain"
+author       = "James Rasell"
+
+[params]
+  avatar = "profile.jpg"
+
+[params.social]
+  github   = "jrasell"
+  linkedin = "jamesrasell"
+  keybase  = "jrasell"
+  email    = "jamesrasell@gmail.com"
+  twitter  = "jrasell"
+
+[[menu.main]]
+  name       = "talks"
+  weight     = 100
+  identifier = "talks"
+  url        = "/talks/"

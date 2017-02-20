@@ -1,0 +1,20 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+        <div class="avatar">
+          <img class="img-circle" src="https://media.licdn.com/media/AAEAAQAAAAAAAAlxAAAAJGFlZWQyYjAxLWQ5OTAtNDRjNC05MTYzLTBiZGFhYzVmNmUzMw.jpg" alt="mugshot" >
+        </div>
+        <h2><strong>James Rasell</strong></h2>
+        <h3>Systems, Infrastructure and Operations Engineer</h3>
+        <h3>Passionate about automation</h3>
+        <h4>Currently working for <a href="https://elsevier.com">Elsevier</a></h4>
+        {{ partial "social.html" . }}
+        </div>
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>

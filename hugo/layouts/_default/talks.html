@@ -1,0 +1,16 @@
+<section id="talks">
+  <div class="container">
+    <h3>{{ .Site.Data.talks.name }}</h3>
+    <div class="panel panel-default">
+      <div class="panel-body">
+      {{ range $i, $el := .Site.Data.talks.source }}
+        <h5>
+          <i class="{{ .icon }}"></i>&nbsp;&nbsp;
+          <strong><a href="{{ $el.link }}">{{ $el.title }}</a></strong>&nbsp;-&nbsp;{{ $el.description }}<br />
+          <center><a href="{{ $el.event_link }}">{{ $el.event }}</a></center>
+        </h5>
+      {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
